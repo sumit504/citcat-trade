@@ -43,7 +43,7 @@ const RPC_URL = 'https://rpc.tempo.xyz';
    TRADING REGISTRY — separate from holder registry
    Stores: tradingRegistry[guildId][userId] = wallet
 ════════════════════════════════════════════════ */
-const TRADING_REGISTRY_FILE = './trading_registry.json';
+const TRADING_REGISTRY_FILE = '/app/data/trading_registry.json';
 
 function loadTradingRegistry() {
   try {
