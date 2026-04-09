@@ -557,7 +557,7 @@ client.on('messageCreate', async (message) => {
     .setDescription(
       `**Buy any TIP-20 token on Tempo chain directly from Discord.**\n\n` +
       `**How it works**\n` +
-      `1. Click **Register Wallet**\n` +
+      `1. Click **Register Wallet** and set your wallet address\n` +
       `2. Click **Buy Token** and enter token CA + amount\n` +
       `3. Send pathUSD to the bot wallet\n` +
       `4. Click **Buy Token** again — tokens sent to your wallet!\n\n` +
