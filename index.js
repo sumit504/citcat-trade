@@ -22,7 +22,7 @@ const PATHUSD    = '0x20c0000000000000000000000000000000000000';
 // Known tokens to show in wallet balances
 const KNOWN_TOKENS = [
   { symbol: 'pathUSD', name: 'pathUSD',  address: '0x20c0000000000000000000000000000000000000', decimals: 6  },
-  { symbol: 'CITCAT',  name: 'Citcats',  address: '0x0E3D1e74A49ba5b3F5c1E746d2bcaaB2dee8C62B', decimals: 6 },
+  // { symbol: 'CITCAT',  name: 'Citcats',  address: '0x0E3D1e74A49ba5b3F5c1E746d2bcaaB2dee8C62B', decimals: 6 },
   { symbol: 'ENSH',    name: 'Enshrined', address: '0x20c000000000000000000000109394a271f6aae6', decimals: 6 },
 
   // Add more tokens here:
