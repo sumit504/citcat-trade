@@ -553,7 +553,7 @@ client.on('messageCreate', async (message) => {
 
   const embed = new EmbedBuilder()
     .setTitle('Citcats Trading Bot')
-    .setColor(0xf5c800)
+    .setColor(0xffffff)
     .setDescription(
       `**Buy any TIP-20 token on Tempo chain directly from Discord.**\n\n` +
       `**How it works**\n` +
