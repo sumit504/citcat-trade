@@ -557,15 +557,14 @@ client.on('messageCreate', async (message) => {
     .setDescription(
       `**Buy any TIP-20 token on Tempo chain directly from Discord.**\n\n` +
       `**How it works**\n` +
-      `1. Click **Register Wallet** to link your wallet\n` +
+      `1. Click **Register Wallet**\n` +
       `2. Click **Buy Token** and enter token CA + amount\n` +
-      `3. Bot shows you the quote\n` +
-      `4. Send pathUSD to the bot wallet\n` +
-      `5. Click **Buy Token** again — tokens sent to your wallet!\n\n` +
-      `**Fee:** 0.1 pathUSD flat per trade\n` +
+      `3. Send pathUSD to the bot wallet\n` +
+      `4. Click **Buy Token** again — tokens sent to your wallet!\n\n` +
+      `**Fee:** 0.1 pathUSD only per trade\n` +
       `**Slippage:** 5%\n` +
       `**Min/Max:** 1 — 1000 pathUSD\n\n` +
-      `*Powered by Enshrined on Tempo Chain*`
+      `*Built by Citcats*`
     )
     .setFooter({ text: 'Powered by Enshrined • Tempo Chain' });
 
